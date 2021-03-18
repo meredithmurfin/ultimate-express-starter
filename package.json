@@ -1,0 +1,41 @@
+{
+    "name": "ultimate-express-starter",
+    "version": "1.0.0",
+    "description": "The ultimate starter template for a Express project with JavaScript",
+    "keywords": [
+        "node",
+        "nodejs",
+        "express",
+        "javascript",
+        "yarn"
+    ],
+    "license": "MIT",
+    "repository": "https://github.com/meredithmurfin/ultimate-express-starter.git",
+    "author": {
+        "name": "Meredith Murfin",
+        "email": "meredithmurfin@gmail.com",
+        "url": "http://meremurf.dev"
+    },
+    "main": "src/main.js",
+    "private": true,
+    "scripts": {
+        "develop": "node app.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.22.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-config-prettier": "^8.1.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^3.3.1",
+        "prettier": "^2.2.1",
+        "prettier-eslint": "^12.0.0",
+        "prettier-eslint-cli": "^5.0.1"
+    },
+    "engines": {
+        "node": ">= 14.0.0"
+    }
+}
