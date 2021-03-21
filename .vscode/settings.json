@@ -1,0 +1,70 @@
+{
+    // VS Code workspace settings
+
+    // Editor
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.fontFamily": "Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
+    "editor.inlineHints.fontFamily": "Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
+
+    // Files
+    "files.trimTrailingWhitespace": true,
+
+    // Search
+    "search.exclude": {
+        "**/*.lock": true
+    },
+
+    // JavaScript
+    "javascript.format.semicolons": "insert",
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.validate.enable": false,
+
+    // Git
+    "git.allowForcePush": true,
+    "git.branchValidationRegex": "/(chore|ci|docs|feat|fix|perf|refactor|release|setup|test)/(([a-z|-]{1,20}))/g",
+    "git.decorations.enabled": false,
+    "git.fetchOnPull": true,
+    "git.showPushSuccessNotification": true,
+
+    // Merge Conflict
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
+    "merge-conflict.decorators.enabled": true,
+    "merge-conflict.diffViewPosition": "Beside",
+
+    // Necessary changes to VS Code extension settings
+    "npm.packageManager": "yarn",
+
+    // ESLint
+    "eslint.alwaysShowStatus": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.debug": false,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.onIgnoredFiles": "off",
+    "eslint.packageManager": "yarn",
+    "eslint.probe": ["javascript", "html", "vue", "markdown"],
+    "eslint.run": "onSave",
+    "eslint.validate": ["javascript", "html", "vue", "markdown"],
+
+    // Prettier
+    "prettier.enable": true,
+    "prettier.tabWidth": 4,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5"
+}

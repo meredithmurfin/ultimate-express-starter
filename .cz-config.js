@@ -37,16 +37,8 @@ module.exports = {
             name: 'setup:      🎉 Initial setup',
         },
         {
-            value: 'style',
-            name: 'style:      🎨 Adds or updates styles',
-        },
-        {
             value: 'test',
             name: 'test:       🧪 Adds or updates tests',
-        },
-        {
-            value: 'ux',
-            name: 'ux:         🚸 Changes that improve user experience',
         },
     ],
     scopes: [
@@ -229,54 +221,6 @@ module.exports = {
             {
                 value: 'unit',
                 name: 'unit:   🚦 Adds or updates unit tests',
-            },
-        ],
-        ux: [
-            {
-                value: 'access',
-                name: 'access:     ♿️ Changes that improve user accessibility',
-            },
-            {
-                value: 'alt-text',
-                name: 'alt-text:   💬 Adds or updates alternative text',
-            },
-            {
-                value: 'android',
-                name: 'android:    🤖 Android-specific changes',
-            },
-            {
-                value: 'animation',
-                name:
-                    'animation:  ✨ Adds or updates animations and transitions',
-            },
-            {
-                value: 'ios',
-                name: 'ios:        📱 iOS-specific changes',
-            },
-            {
-                value: 'linux',
-                name: 'linux:      🐧 Linux-specific changes',
-            },
-            {
-                value: 'osx',
-                name: 'osx:        🍎 OSX-specific changes',
-            },
-            {
-                value: 'responsive',
-                name:
-                    'responsive: 📲 Changes that affect overall responsive design',
-            },
-            {
-                value: 'style',
-                name: 'style:      🎨 Adds or updates styles',
-            },
-            {
-                value: 'ui',
-                name: 'ui:         🖥️  General UI-related changes',
-            },
-            {
-                value: 'windows',
-                name: 'windows:    🏁 Windows-specific changes',
             },
         ],
     },

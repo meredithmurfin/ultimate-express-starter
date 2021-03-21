@@ -18,7 +18,7 @@ module.exports = {
     rules: {
         'prettier/prettier': ['error', { singleQuote: true }], // Displays prettier errors as ESLint errors
         'brace-style': [2, '1tbs'], // https://eslint.org/docs/rules/brace-style
-        'comma-dangle': [2, 'always-multiline'], // https://eslint.org/docs/rules/comma-dangle
+        // 'comma-dangle': [2, 'always-multiline'], // https://eslint.org/docs/rules/comma-dangle
         'comma-spacing': [2, { before: false, after: true }], // https://eslint.org/docs/rules/comma-spacing
         'default-param-last': ['error'], // https://eslint.org/docs/rules/default-param-last
         'dot-notation': ['error'], // https://eslint.org/docs/rules/dot-notation
